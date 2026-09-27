@@ -8,7 +8,7 @@ Access control vulnerabilities occur when an application does not properly enfor
 
 | # | Lab | Status | Write-up |
 |---:|---|---|---|
-| 1 | Unprotected admin functionality | ⬜ | — |
+| 1 | Unprotected admin functionality | ✅ Completed | [Write-up](./lab-01.md) |
 | 2 | Unprotected admin functionality with unpredictable URL | ⬜ | — |
 | 3 | User role controlled by request parameter | ⬜ | — |
 | 4 | User role can be modified in user profile | ⬜ | — |
@@ -53,15 +53,3 @@ The application fails to correctly enforce authorization rules, allowing users t
 - Browser Developer Tools
 
 ---
-
-## 📝 Write-up Format
-
-Each completed lab will have its own Markdown file.
-
-```text
-access-control/
-├── README.md
-├── lab-01.md
-├── lab-02.md
-├── lab-03.md
-└── ...
