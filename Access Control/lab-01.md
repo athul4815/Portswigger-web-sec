@@ -12,7 +12,7 @@ The application exposes an administrator panel without properly restricting acce
 
 ## 🧪 Steps
 
-### 1. Check `robots.txt`
+### 1.Check `robots.txt`
 
 I accessed:
 
@@ -23,10 +23,10 @@ The response contained:
 ```text
 User-agent: *
 Disallow: /administrator-panel
-
+```
 This revealed the location of the administrator panel.
 
-2. Access the Administrator Panel
+### 2.Access the Administrator Panel
 
 I navigated to:
 
@@ -34,15 +34,15 @@ I navigated to:
 
 The administrator panel was accessible without authentication or authorization.
 
-3. Delete the User
+### 3. Delete the User
 
 The administrator panel contained an option to delete users.
 
 I selected the user carlos and deleted the account.
 
-The lab was successfully solved.
 
-💡 Why It Works
+
+## 💡 Why It Works
 
 The application does not properly enforce access control on the administrator panel.
 
@@ -50,22 +50,24 @@ Although robots.txt reveals the location of the panel, the main vulnerability is
 
 robots.txt is not a security mechanism and should not be relied upon to protect sensitive functionality.
 
-🛡️ Remediation
+## 🛡️ Remediation
 
-The application should:
+### The application should:
 
 Require authentication for administrative functionality.
 Verify that the authenticated user has administrator privileges.
 Enforce authorization on every administrative endpoint.
 Never rely on hidden URLs as a security mechanism.
-🧠 What I Learned
+
+## 🧠 What I Learned
 robots.txt can reveal interesting application paths.
-robots.txt is not an access-control mechanism.
+robots.txt may contain details of disallowed and allowed paths.
 Sensitive administrative functionality must have server-side authorization.
 Hidden functionality is not necessarily protected functionality.
-🛠️ Tools
+
+## 🛠️ Tools
 Burp Suite
 Web Browser
-✅ Result
 
+## ✅ Result
 Lab Solved
