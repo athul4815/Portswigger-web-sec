@@ -1,45 +1,56 @@
 # PortSwigger Web Security Academy
 
-My journey learning web application security through the PortSwigger Web Security Academy.
+My journey through the PortSwigger Web Security Academy.
 
 ## 📊 Progress
 
-| Category | Completed | Status |
-|---|---:|---|
-| SQL Injection | 0 | ⬜ Not Started |
-| Authentication | 0 | ⬜ Not Started |
-| Access Control | 0 | ⬜ Not Started |
-| Cross-Site Scripting | 0 | ⬜ Not Started |
-| Path Traversal | 0 | ⬜ Not Started |
-| Business Logic Vulnerabilities | 0 | ⬜ Not Started |
-| Information Disclosure | 0 | ⬜ Not Started |
-| File Upload Vulnerabilities | 0 | ⬜ Not Started |
-| SSRF | 0 | ⬜ Not Started |
-| XXE Injection | 0 | ⬜ Not Started |
+| # | Vulnerability / Topic | Status |
+|---:|---|---|
+| 1 | SQL Injection | ⬜ Not Started |
+| 2 | Cross-Site Scripting (XSS) | ⬜ Not Started |
+| 3 | Cross-Site Request Forgery (CSRF) | ⬜ Not Started |
+| 4 | Clickjacking | ⬜ Not Started |
+| 5 | DOM-Based Vulnerabilities | ⬜ Not Started |
+| 6 | Cross-Origin Resource Sharing (CORS) | ⬜ Not Started |
+| 7 | XML External Entity (XXE) Injection | ⬜ Not Started |
+| 8 | Server-Side Request Forgery (SSRF) | ⬜ Not Started |
+| 9 | HTTP Request Smuggling | ⬜ Not Started |
+| 10 | OS Command Injection | ⬜ Not Started |
+| 11 | Server-Side Template Injection | ⬜ Not Started |
+| 12 | Path Traversal | ⬜ Not Started |
+| 13 | Access Control | ⬜ In Progress |
+| 14 | Authentication | ⬜ Not Started |
+| 15 | WebSockets | ⬜ Not Started |
+| 16 | Web Cache Poisoning | ⬜ Not Started |
+| 17 | Insecure Deserialization | ⬜ Not Started |
+| 18 | Information Disclosure | ⬜ Not Started |
+| 19 | Business Logic Vulnerabilities | ⬜ Not Started |
+| 20 | HTTP Host Header Attacks | ⬜ Not Started |
+| 21 | OAuth Authentication | ⬜ Not Started |
+| 22 | File Upload Vulnerabilities | ⬜ Not Started |
+| 23 | JWT Attacks | ⬜ Not Started |
+| 24 | Essential Skills | ⬜ Not Started |
+| 25 | Prototype Pollution | ⬜ Not Started |
+| 26 | GraphQL API Vulnerabilities | ⬜ Not Started |
+| 27 | Race Conditions | ⬜ Not Started |
+| 28 | NoSQL Injection | ⬜ Not Started |
+| 29 | API Testing | ⬜ Not Started |
+| 30 | Web LLM Attacks | ⬜ Not Started |
+| 31 | Web Cache Deception | ⬜ Not Started |
 
-## 🧪 Lab Tracker
+## 📈 Status Legend
 
-### Access Control
+| Status | Meaning |
+|---|---|
+| ⬜ | Not Started |
+| 🟡 | In Progress |
+| 🔵 | Practicing |
+| ✅ | Completed |
 
-| Difficulty | Lab | Status | Write-up |
-|---|---|---|---|
-| Apprentice | Lab name | ⬜ Not Pwned | — |
-| Apprentice | Lab name | ⬜ Not Pwned | — |
+---
 
-## 🛠️ Tools
+### Resources
 
-- Burp Suite
-- Firefox
-- FoxyProxy
-- Kali Linux
-- curl
-
-## 📚 Learning Resources
-
-- PortSwigger Web Security Academy
-- OWASP
-- Hacker101
-
-## ✍️ Write-ups
-
-Medium articles will be linked here as I publish them.
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- [All Labs](https://portswigger.net/web-security/all-labs)
+- [All Topics](https://portswigger.net/web-security/all-topics)
